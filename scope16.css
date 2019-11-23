@@ -1,0 +1,344 @@
+*,
+*::after,
+*::before {
+  padding: 0;
+  margin: 0;
+  box-sizing: inherit;
+}
+body{
+    box-sizing: border-box;
+}
+.container{
+    width: 80%;
+    margin: auto;
+}
+header .container h1 span{
+    color: #6dcbd2;
+}
+header .container h1{
+    color: #333399;
+    font-family: cursive;
+    margin-top: 20px;
+    margin-left: 80px;
+}
+header .container nav{
+    float: right;
+    margin-top: -30px;
+    margin-right: 5%;
+}
+header .container nav li{
+   display: inline;
+}
+header .container nav li a{
+    color: #5151a6;
+    margin-right: 20px;
+    font-family: cursive;
+    font-weight: 100;
+    text-decoration: none;
+}
+header .container .meet{
+    position: relative;
+}
+header .container h2{
+    color: white;
+    font-size: 80;
+    width: 40px;
+    position: absolute;
+    margin-top: 130px;
+    margin-left: 130px;
+    font-family: cursive;
+    line-height: 80px;
+}
+header .container img{
+    width: 100%;
+    height: 490px;
+    margin-top: 10px;
+}
+main #About-scope .container h2 , main #speakers .container h2 , main #schedule .container h2{
+    color: #333399;
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 50px;
+    font-family: cursive;
+    letter-spacing: 1px;
+}
+main #About-scope .container div , main #speakers .container div:first-of-type ,  main #schedule .container .line{
+    height: 5px;
+    width: 50px;
+    background-color: #333399;
+    margin: -45px auto 40px auto; /*Better Centering*/
+    /*margin-left:47%;
+    margin-top: -45px;
+    margin-bottom: 40px;*/
+}
+main #About-scope .container img{
+    float: left;
+    margin-left: 15%; 
+    margin-right: 30px;
+}
+main #About-scope .container p{
+    color: #999999;
+    margin-right: 0px;
+    padding-top: 15px;
+    font-family: sans-serif;
+}
+main #About-scope .container button{
+    background-color: #333399;
+    color: white;
+    margin-top:18px;
+    margin-left: 100px;
+    width: 100px;
+    height: 30px;
+    border: none;
+    cursor: pointer;
+}
+main #speakers .container{
+    margin-top: 120px;
+}
+main #speakers .container .speak{
+    float: left;
+    width: 23%;
+    margin-right: 2%;
+}
+main #speakers .container .speak h3{
+    width: 100%;
+    height: 40px;
+    background-color: #333399;
+    color: white;
+    text-align: center;
+    padding-top: 10px;
+}
+main #schedule .container{
+    height: 750px;
+    margin-top: 390px;
+    background-color: #F4F4F4;
+}
+main #schedule .container h2{
+   padding-top: 25px;
+}
+main #schedule .container #days button , main #Roll .container #Rollin button{
+    width: 160px;
+    height: 40px;
+    background-color: #333399;
+    color: white;
+    cursor: pointer;
+    border: none;
+}
+main #schedule .container #days  {
+   display: flex;
+   justify-content: center;  /*make it better than centering by margin*/ /*Better Centering*/
+   margin-top: -20px;
+    
+}
+main #schedule .container #days .sun , main #Roll .container #Rollin .sun{
+    background-color: #cccccc;
+    margin-left: -5px;
+}
+main #schedule .container #times {
+    /*text-align: center;*/
+    margin-top: 20px; 
+     margin: 0 auto;
+}
+main #schedule .container #times .time h3{
+    margin-top: 10px;
+    margin-left: 42%;
+    color: #333399;
+}
+main #schedule .container #times .time p span{
+    width:30px;
+    height: 30px;
+    border-radius: 50%;
+    text-align: center;
+    margin-left: -4%;
+    font-size: 25px;
+    font-weight: bold;
+    background-color: #64c7d0;
+    font-family: cursive;
+    
+}
+main #schedule .container #times .time span{
+      position: absolute;
+      left: 43%;  /*590px*/
+      width: 22%;
+      height: 1px;
+      background-color: #78CDD4;
+}
+main #schedule .container #times .time p:first-of-type , main #schedule .container #times .time p:nth-of-type(2){
+    float: left;
+    margin-left: 42%/*460px*/;
+    color: #333399;
+     padding-top: 5px;
+    
+}
+main #schedule .container #times .time p:last-of-type{
+    margin-left: 62% /*620px*/;
+    color: #333399;
+    padding-top: 5px;
+}
+main #Roll .container h2 , main #location .container h2{
+    color: #333399;
+    text-align: center;
+    padding-top: 20px;
+    font-family: cursive;
+}
+main #Roll .container #Rollin{
+    display: flex;
+    justify-content: center; /*Better Centering */
+    margin-top: 20px;
+}
+main #Roll .container div:first-of-type , main #location .container div:first-of-type {
+    height: 5px;
+    width: 50px;
+    background-color: #333399;
+    margin : 0 auto;
+}
+main #location .container{
+    height: 600px;
+    margin-top: 40px;
+    background-color: #F4F4F4;
+    position: relative;
+}
+main #location .container img{
+    margin: 40px 10%; /*110px*/;
+    border: solid 2px white;
+    border-radius: 15px;
+}
+main #location .container h4 {
+    background-color: #ECC88F;
+    color: white;
+    font-family: cursive;
+    text-align: center;
+    padding-top: 25px;
+    
+    height: 120px;
+    width: 40%;
+    font-size: 30px;
+    margin-top: -100px;
+    position: absolute;
+    bottom: 200px;
+    left: 30%;
+}
+footer .container{
+    height: 250px;
+    background-color: #5151a8;
+    font-family: cursive;
+}
+footer .container p{
+    color: white;
+    padding-top: 20px;
+    text-align: center;
+}
+footer .container p span{
+    color: #64c7d0;
+}
+footer .container button{
+    color: #5151a8;
+    background-color: white;
+    text-align: center;
+    width: 150px;
+    height: 50px;
+    border: none;
+    font-size: 18px;
+    /*margin:20px 43%;*/
+    display: block;  /*Better Centering*/
+    margin: 20px auto;
+    cursor: pointer;
+}
+footer  p{
+    color: #5151a8;
+    font-family: cursive;
+    margin-top:20px;
+    text-align: center;
+}
+footer .container #icons{ /*Better Centering*/
+    display: flex;
+    justify-content: center;
+}
+/*footer .container #icons ul{
+    margin-top: 15px;
+    margin-left: 42%;
+}*/
+footer .container #icons ul li {
+  display: inline;
+  border: 2px solid white;
+  border-radius:50%;
+  padding: 3px;
+}
+/*Responsive*/
+@media screen and (max-width: 920px) {
+  main #About-scope .container img{
+      float: none;
+      display: block;
+    margin: 0px auto;
+}
+main #About-scope .container p{
+    clear: both;
+    text-align: center;
+}
+main #About-scope .container button{
+    display: block;
+    margin:15px auto;
+}
+}
+@media screen and (max-width: 790px){
+    header .container h1{
+        text-align: center;
+        margin: 0 auto;
+    }
+   header .container nav{
+    float: none;
+    margin-top: 20px;
+    margin-right: 0px;
+       
+}
+header .container nav li{
+    display: block;
+    margin: 2px auto;
+    width: 70px;
+    background-color: #cccccc;
+   
+}
+    header .container nav li a{
+        margin-right: 0px
+    }
+    main #speakers .container .speak{
+    float: left;
+    width: 45%;
+    margin-right: 5%;
+    margin-top: 5%;
+}
+    main #schedule .container{
+    margin-top: 750px;
+    
+}
+    ////////////////////////////////////////
+    main #schedule .container #times .time h3{
+    margin-left: 42%;
+}
+main #schedule .container #times .time p span{
+    margin-left: -7%;
+}
+main #schedule .container #times .time span{
+      position: absolute;
+      left: 43%;  /*590px*/
+      width: 30%;
+}
+main #schedule .container #times .time p:first-of-type , main #schedule .container #times .time p:nth-of-type(2){
+    float: left;
+    margin-left: 42%/*460px*/; 
+}
+main #schedule .container #times .time p:last-of-type{
+    margin-left: 58% /*620px*/;
+}
+    ////////////////////////////////////////////////////
+}
+@media screen and (max-width: 590px){
+header .container h2{
+    margin-left: 70px;
+}
+}
+@media screen and (max-width: 530px){
+    main #location .container h4 {
+    height: 160px;
+}
+}
